@@ -8,16 +8,7 @@ $data = mysqli_fetch_assoc($result);
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
--->
+
 
 <head>
   <meta charset="utf-8">
@@ -45,19 +36,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-<!--
-  ---------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
-  ---------------------------------------------------------------
--->
 </head>
 
 <body>
@@ -91,18 +70,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
         <?php
           }
         ?>
-<!--
----------------------------------------------------------------
 
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-
---------------------------------------------------------------
--->
         <?php   
           if($data['facebook']){
         ?>
@@ -118,19 +86,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
         <?php
           }
         ?>
-<!--
-  ---------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
-  ---------------------------------------------------------------
--->
         <?php   
           if($data['youtube']){
         ?>
@@ -146,19 +102,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
         <?php
           }
         ?>
-<!--
-  ---------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
-  ---------------------------------------------------------------
--->
         <?php   
           if($data['linkedin']){
         ?>
@@ -174,19 +118,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
-<!--
-  ---------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
-  ---------------------------------------------------------------
--->
     <!-- ======= About Me ======= -->
     <div class="about-me container">
 
@@ -214,19 +146,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
                 <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?=$data['age']?></span></li>
               </ul>
             </div>
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span><?=$data['degree']?></span></li>
@@ -250,19 +170,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
       </div>
 
     </div><!-- End About Me -->
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
     <?php
     
     $counter = "SELECT * FROM `counter`";
@@ -289,19 +197,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
     }
 
     ?>
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
       </div>
 
     </div><!-- End Counts -->
@@ -336,19 +232,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
       ?>
       </div>
 
-      <!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
 
     </div><!-- End Interests -->
 
@@ -394,19 +278,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
       <div class="owl-carousel testimonials-carousel">
 
       </div>
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
     </div><!-- End Testimonials  -->
 
   </section><!-- End About Section -->
@@ -419,19 +291,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
         <h2>Resume</h2>
         <p>Check My Resume</p>
       </div>
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
       <div class="row">
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
@@ -494,19 +354,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
 
     </div>
   </section><!-- End Resume Section -->
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
   <!-- ======= Services Section ======= -->
   <section id="services" class="services">
     <div class="container">
@@ -515,19 +363,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
         <h2>Services</h2>
         <p>My Services</p>
       </div>
-<!--
----------------------------------------------------------------
 
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
       <?php 
         $services = "SELECT * FROM `services`";
         $services_result = mysqli_query($con, $services);
@@ -556,19 +392,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
 
     </div>
   </section><!-- End Services Section -->
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
     <div class="container">
@@ -596,19 +420,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
           </ul>
         </div>
       </div>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
       <div class="row portfolio-container">
         <?php
           $portfolio = "SELECT * FROM `portfolio`";
@@ -645,19 +457,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
 
     </div>
   </section><!-- End Portfolio Section -->
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
@@ -676,19 +476,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
             <p><?=$data['address']?></p>
           </div>
         </div>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
         <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-share-alt"></i>
@@ -709,19 +497,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
               <?php
                 }
               ?>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
               <?php   
                 if($data['instagram']){
               ?>
@@ -737,19 +513,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
               <?php
                 }
               ?>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
               <?php   
                 if($data['github']){
               ?>
@@ -765,19 +529,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
               <?php
                 }
               ?>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
             </div>
           </div>
         </div>
@@ -818,19 +570,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
           </div>
         </div>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
         <div class="form-group mt-3">
           <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
         </div>
@@ -851,19 +591,7 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
     $details_data = mysqli_fetch_assoc($details_result);
 
     ?>
-    <!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+     
     <!-- All the links in the footer should remain intact. -->
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -884,17 +612,5 @@ Linkdin        :  https://www.linkedin.com/in/dev-mhrony
   <script src="assets/js/main.js"></script>
 
 </body>
-<!--
----------------------------------------------------------------
-
-/*
-Template       :  Code Camp BD - Meditach
-Author         :  MH RONY
-GitHub         :  https://github.com/dev-mhrony
-Facebook       :  https://facebook.com/dev.mhrony
-Website        :  https://developerrony.com
-Linkdin        :  https://www.linkedin.com/in/dev-mhrony
-*/
----------------------------------------------------------------
--->
+ 
 </html>
